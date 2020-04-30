@@ -1,7 +1,7 @@
 {
-  "name": "@fluentui-react-native/button",
-  "version": "0.5.1",
-  "description": "A cross-platform opinionated Fluent Button component",
+  "name": "@fluentui-react-native/shimmer",
+  "version": "0.5.2",
+  "description": "A cross-platform opinionated Fluent Shimmer component",
   "main": "src/index.ts",
   "module": "src/index.ts",
   "typings": "lib/index.d.ts",
@@ -21,7 +21,6 @@
     "@uifabricshared/foundation-compose": "^1.6.3",
     "@fluentui-react-native/adapters": "^0.2.2",
     "@fluentui-react-native/interactive-hooks": "^0.3.1",
-    "@fluentui-react-native/pressable": "^0.3.4",
     "@fluentui-react-native/text": "^0.5.1",
     "@fluentui-react-native/tokens": "^0.4.0"
   },

@@ -7,6 +7,8 @@
  */
 
 import React from 'react';
+import { Shimmer } from '@fluentui-react-native/shimmer';
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -46,6 +48,9 @@ const App: () => React$Node = () => {
                 screen and then come back to see your edits.
               </Text>
             </View>
+            <Shimmer>
+              <Text>...Shimmering...</Text>
+            </Shimmer>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
               <Text style={styles.sectionDescription}>

@@ -11,13 +11,15 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7DF8DF52D6D1EF6F591FBFF8 /* libPods-FluentUITester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF614AD8FFCE1B31EDC8C4B5 /* libPods-FluentUITester.a */; };
+		8F91A45CB80091E94C52F0D0 /* libPods-FluentUITester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78F860451FCB57F9B55C2BB /* libPods-FluentUITester.a */; };
+		9F6A187124536931000390E5 /* FRNShimmerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A187024536931000390E5 /* FRNShimmerViewManager.m */; };
+		9F6A187324536A9A000390E5 /* FRNShimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A187224536A9A000390E5 /* FRNShimmerView.m */; };
 		9F986B75244F5EAC0068CA9B /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F986B74244F5EAC0068CA9B /* Dummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* FluentUITester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluentUITester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* FluentUITester-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FluentUITester-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FluentUITester/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FluentUITester/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -30,14 +32,19 @@
 		9F3A29F3244F653400A401D2 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		9F3A29F4244F657400A401D2 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		9F3A29F5244F658400A401D2 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		9F6A186E24536913000390E5 /* FRNShimmerViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRNShimmerViewManager.h; sourceTree = "<group>"; };
+		9F6A187024536931000390E5 /* FRNShimmerViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRNShimmerViewManager.m; sourceTree = "<group>"; };
+		9F6A187224536A9A000390E5 /* FRNShimmerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRNShimmerView.m; sourceTree = "<group>"; };
+		9F6A187424536AA3000390E5 /* FRNShimmerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRNShimmerView.h; sourceTree = "<group>"; };
+		9F6A1875245382B1000390E5 /* libMicrosoftFluentUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMicrosoftFluentUI.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/FluentUITester-fpyhjaqeaqvpnrgdvjkbuibuaatg/Build/Products/Debug-iphonesimulator/MicrosoftFluentUI/libMicrosoftFluentUI.a"; sourceTree = "<group>"; };
 		9F986B74244F5EAC0068CA9B /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		A11B7AD9F208A1A9A34E9C99 /* Pods-FluentUITester-FluentUITesterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluentUITester-FluentUITesterTests.release.xcconfig"; path = "Target Support Files/Pods-FluentUITester-FluentUITesterTests/Pods-FluentUITester-FluentUITesterTests.release.xcconfig"; sourceTree = "<group>"; };
 		B7FF3B9B45E58F40D42487A2 /* Pods-FluentUITester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluentUITester.release.xcconfig"; path = "Target Support Files/Pods-FluentUITester/Pods-FluentUITester.release.xcconfig"; sourceTree = "<group>"; };
 		C04065D4BD5AD9F3D52CA8FB /* libPods-FluentUITester-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FluentUITester-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6177FC2D7883B3D52F879F4 /* libPods-FluentUITester-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FluentUITester-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF614AD8FFCE1B31EDC8C4B5 /* libPods-FluentUITester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FluentUITester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F78F860451FCB57F9B55C2BB /* libPods-FluentUITester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FluentUITester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF8DF52D6D1EF6F591FBFF8 /* libPods-FluentUITester.a in Frameworks */,
+				8F91A45CB80091E94C52F0D0 /* libPods-FluentUITester.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +62,7 @@
 		13B07FAE1A68108700A75B9A /* FluentUITester */ = {
 			isa = PBXGroup;
 			children = (
+				9F6A186F2453691C000390E5 /* Components */,
 				9F986B6D244F5CCC0068CA9B /* Config */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -71,12 +79,13 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F6A1875245382B1000390E5 /* libMicrosoftFluentUI.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				DF614AD8FFCE1B31EDC8C4B5 /* libPods-FluentUITester.a */,
 				38170A25F00E2E4EBB3888A9 /* libPods-FluentUITester-FluentUITesterTests.a */,
 				C04065D4BD5AD9F3D52CA8FB /* libPods-FluentUITester-tvOS.a */,
 				C6177FC2D7883B3D52F879F4 /* libPods-FluentUITester-tvOSTests.a */,
+				F78F860451FCB57F9B55C2BB /* libPods-FluentUITester.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,9 +114,20 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* FluentUITester.app */,
+				13B07F961A680F5B00A75B9A /* FluentUITester-iOS.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9F6A186F2453691C000390E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9F6A186E24536913000390E5 /* FRNShimmerViewManager.h */,
+				9F6A187024536931000390E5 /* FRNShimmerViewManager.m */,
+				9F6A187424536AA3000390E5 /* FRNShimmerView.h */,
+				9F6A187224536A9A000390E5 /* FRNShimmerView.m */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 		9F986B6D244F5CCC0068CA9B /* Config */ = {
@@ -144,6 +164,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A56DC632619FC11307D496C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,7 +172,7 @@
 			);
 			name = FluentUITester;
 			productName = FluentUITester;
-			productReference = 13B07F961A680F5B00A75B9A /* FluentUITester.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* FluentUITester-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +231,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		A56DC632619FC11307D496C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FluentUITester/Pods-FluentUITester-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MicrosoftFluentUI/FluentUIResources-ios.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FluentUIResources-ios.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FluentUITester/Pods-FluentUITester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		BFC73051CC2C5CD08789453C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -260,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6A187324536A9A000390E5 /* FRNShimmerView.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				9F986B75244F5EAC0068CA9B /* Dummy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				9F6A187124536931000390E5 /* FRNShimmerViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +326,32 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F3A29F4244F657400A401D2 /* Debug.xcconfig */;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/MicrosoftFluentUI\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-DevSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTActionSheet\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTImage\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTLinking\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTNetwork\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTSettings\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTVibration\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTWebSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-fishhook\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/MicrosoftFluentUI\"",
+				);
 			};
 			name = Debug;
 		};
@@ -292,6 +359,32 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F3A29F5244F658400A401D2 /* Release.xcconfig */;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/MicrosoftFluentUI\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-DevSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTActionSheet\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTImage\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTLinking\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTNetwork\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTSettings\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTVibration\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTWebSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-fishhook\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/MicrosoftFluentUI\"",
+				);
 			};
 			name = Release;
 		};

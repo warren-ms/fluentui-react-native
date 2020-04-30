@@ -31,3 +31,5 @@ INFOPLIST_FILE = FluentUITester/Info.plist
 // Versions
 IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 SWIFT_VERSION = 5.0
+
+HEADER_SEARCH_PATHS = $(inherited) "${BUILT_PRODUCTS_DIR}/MicrosoftFluentUI/Swift Compatibility Header"

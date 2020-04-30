@@ -2,7 +2,8 @@ platform :ios, '12.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 target 'FluentUITester' do
-  # Pods for FluentUITester
+
+  # React-Native dependencies
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -24,9 +25,10 @@ target 'FluentUITester' do
   pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
-  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec', :modular_headers => true
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  use_native_modules!
+  # FluentUI-Apple controls
+  pod 'MicrosoftFluentUI'
 end
